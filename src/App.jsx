@@ -1,12 +1,14 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Main from "./pages/main";
+import Home from "./pages/home";
+import Contact from "./pages/contact";
 
 const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
