@@ -14,7 +14,7 @@ const Contact = () => {
           </div>
         </div>
         <div>
-          
+          <input type="text" placeholder='Enter your first name...' />
         </div>
       </div>
     </div>
