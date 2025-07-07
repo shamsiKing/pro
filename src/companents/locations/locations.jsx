@@ -7,6 +7,7 @@ const Locations = () => {
         <h1>Offices</h1>
         <h1>Worldwide Locations</h1>
       </div>
+     
     </div>
   );
 }
