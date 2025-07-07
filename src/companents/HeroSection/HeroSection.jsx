@@ -1,6 +1,5 @@
 // HeroSection.tsx
 import React from "react";
-import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
@@ -34,31 +33,23 @@ const HeroSection = () => {
 
         {/* Buttons */}
         <div className="flex flex-wrap gap-4 z-30">
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-            className="relative group"
-          >
+          <div className="transform transition-transform duration-300 hover:scale-105 active:scale-95">
             <Link
               to="/cobots"
-              className="bg-gray-900 text-white px-6 py-3 rounded-full font-semibold shadow-md hover:bg-gray-700 transition-all"
+              className="bg-gray-900 text-white px-6 py-3 rounded-full font-semibold shadow-md hover:bg-gray-700 transition-colors"
             >
               Explore
             </Link>
-          </motion.div>
+          </div>
 
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-            className="relative group"
-          >
+          <div className="transform transition-transform duration-300 hover:scale-105 active:scale-95">
             <Link
               to="/contact"
-              className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold shadow-md hover:bg-blue-700 transition-all"
+              className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold shadow-md hover:bg-blue-700 transition-colors"
             >
               Contact
             </Link>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
