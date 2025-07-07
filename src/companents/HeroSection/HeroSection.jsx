@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const HeroSection = () => {
   return (
     <section className="relative z-30 py-16 px-4 lg:px-0 bg-white">
